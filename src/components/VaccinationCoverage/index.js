@@ -27,7 +27,7 @@ const VaccinationCoverage = props => {
         }}
       >
         <XAxis
-          dataKey="vaccinationData"
+          dataKey="vaccineDate"
           tick={{
             stroke: '#6c757d',
 
