@@ -26,7 +26,7 @@ class CowinDashboard extends Component {
   }
 
   getVaccinationData = async () => {
-    this.setState = {apiStatus: apiStatusComponent.inProgress}
+    this.setState = ({apiStatus: apiStatusComponent.inProgress})
 
     const vaccinationDataApiUrl = 'https://apis.ccbp.in/covid-vaccination-data'
 
